@@ -1,4 +1,6 @@
 var express = require('express')
+require('./src/db/connection')
+
 var app = express();
 
 var PORT = 3000;
